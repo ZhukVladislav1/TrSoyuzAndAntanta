@@ -1,0 +1,136 @@
+body {
+    padding: 0px;
+    background-color: #0C0F27;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.header-name {
+    color: whitesmoke;
+    font-family: Helvetica;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #E3CB8A;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    font-weight: 600;
+}
+
+
+
+
+.main .title h1 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+}
+
+.main h2 {
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.cont p {
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.cont a {
+    text-decoration: none;
+    color: #E3CB8A;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 50%;
+}
+
+.navigation h3 {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #E3CB8A;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.navigation li {
+    color: #E3CB8A;
+    font-family: Helvetica;
+}
+
+.navigation a:hover {
+    font-weight: 600;
+}
+
+.cont h4 {
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer h2 {
+    color: whitesmoke;
+}
+
+.footer .footer-navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #E3CB8A;
+}
+
+.image {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+    padding: 10px;
+}
+
+.image img {
+    width: 100%;
+}
